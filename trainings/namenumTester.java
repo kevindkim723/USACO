@@ -1,4 +1,4 @@
-	package trainings;
+//package trainings;
 import static java.lang.System.*;
 
 import java.io.File;
@@ -16,15 +16,15 @@ public class namenumTester {
              {"D","E","F"},
              {"G","H","I"},
              {"J","K","L"},
-             {"M","N","O"},
+             {"M","N","O"},  
              {"P","R","S"},
              {"T","U","V"},
              {"W","X","Y"}
 		 	 };
-		
+		 
 		int num = 4734;
 		
-		int pos = findPossibilites(num);
+		
 		
 		
 		Scanner scan = new Scanner(new File("/root/dict.txt"));
@@ -35,19 +35,9 @@ public class namenumTester {
 		}
 		System.out.print(dict);
 	}
-	public ArrayList<String> mutate(StringBuilder sb, int length, String[][] arr, int index)
+	public void mutate(StringBuilder sb, int length, String[][] arr, int index)
 	{
-		if (index == length)
-		{
-			return "";
-		}
-		else
-		{
-			for (int i = 0 ; i < 3; i++)
-			{
-				sb.append(arr[0][i]).append(mutate())
-			}
-		}
+		
 	}
 	
 	
