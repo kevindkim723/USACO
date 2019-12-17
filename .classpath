@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="bronzeFeb2018"/>
-	<classpathentry kind="src" path="bronzeNov2011"/>
 	<classpathentry kind="src" path="trainings"/>
 	<classpathentry kind="src" path="USOpen2015"/>
 	<classpathentry kind="src" path="USOpen2018"/>
@@ -12,5 +11,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="bronzeNov2011"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,4 +1,4 @@
-package trainings;
+
 /*
 ID: dodocan1
 LANG: JAVA
@@ -27,7 +27,7 @@ public class transform {
 		for (int i = 0; i < l; i++) {
 			trans[i] = fin.readLine().split("");
 		}
-		
+
 		if (matchR(orig, trans, 0)) {
 			if (same(orig, rotate(trans))) {
 				fout.println("1");
@@ -73,7 +73,8 @@ public class transform {
 		String[][] arr3 = rotate(arr2);
 		return same(arr, arr3) || matchR(arr, arr3, x + 1);
 	}
-	//helper method to print 2d array out
+
+	// helper method to print 2d array out
 	public static void printArray(String[][] arr) {
 		int l = arr.length;
 		for (int i = 0; i < l; i++) {
@@ -100,7 +101,7 @@ public class transform {
 		String[][] arr = new String[arr2.length][arr2.length];
 		for (int i = 0; i < arr2.length; i++) {
 			for (int j = 0; j < arr2.length; j++) {
-				
+
 				arr[i][arr2.length - j - 1] = arr2[i][j];
 				arr[i][j] = arr2[i][arr2.length - j - 1];
 			}

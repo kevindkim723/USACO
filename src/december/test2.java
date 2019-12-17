@@ -5,36 +5,35 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-class cow 
-{
-	public int t1,t2,b;
-	public cow(int t1, int t2, int b)
-	{
+
+class cow {
+	public int t1, t2, b;
+
+	public cow(int t1, int t2, int b) {
 		this.t1 = t1;
 		this.t2 = t2;
 		this.b = b;
 	}
-	public boolean overlap(cow o)
-	{
-		if (o.t1 > t1 && o.t1 < t2)
-		{
+
+	public boolean overlap(cow o) {
+		if (o.t1 > t1 && o.t1 < t2) {
 			return true;
 		}
 		return false;
 	}
-	public String toString()
-	{
-		return "" +t1;
+
+	public String toString() {
+		return "" + t1;
 	}
-	
-	
+
 }
-class sorter implements Comparator<cow>
-{
+
+class sorter implements Comparator<cow> {
 	public int compare(cow arg0, cow arg1) {
 		return (arg0.t1 - arg1.t1);
 	}
 }
+
 public class test2 {
 	public static void main(String[] args) throws IOException
 	{
@@ -84,7 +83,5 @@ public class test2 {
 	   
 	    
 	}
-	
-	
 
 }
