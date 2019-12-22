@@ -55,7 +55,7 @@ public class silver2 {
 		{
 			total += map.get(s) * (map2.containsKey(reverse(s)) ? map2.get(reverse(s)) : 0);
 		}
-		 q
+
 		System.out.println(total);
 		fout.println(total);
 		fout.close();

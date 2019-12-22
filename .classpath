@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="USOpen2015"/>
 	<classpathentry kind="src" path="USOpen2018"/>
 	<classpathentry kind="src" path="Dec2016"/>
+	<classpathentry kind="src" path="Jan2019"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
