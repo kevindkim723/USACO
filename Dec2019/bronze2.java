@@ -2,7 +2,7 @@ package Dec2019;
 import java.io.*;
 import java.util.*;
 
-public class dec2019p2 {
+public class bronze2 {
 	public static void main(String[] args) throws IOException {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("whereami.out")));
 

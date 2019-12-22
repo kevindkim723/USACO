@@ -1,4 +1,4 @@
-package USOpen2015;
+
 
 import static java.lang.System.out;
 import java.util.*;

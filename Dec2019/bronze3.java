@@ -2,7 +2,7 @@ package Dec2019;
 import java.io.*;
 import java.util.*;
 
-public class dec2019p3 {
+public class bronze3 {
 	static class line {
 		String tail;
 		String head;

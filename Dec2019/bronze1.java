@@ -2,7 +2,7 @@ package Dec2019;
 import java.io.*;
 import java.util.*;
 
-public class dec2019p1 {
+public class bronze1 {
 	public static void main(String[] args) throws IOException {
 		Scanner scanner = new Scanner(new FileReader("gymnastics.in"));
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("gymnastics.out")));
