@@ -1,4 +1,3 @@
-package Dec2019;
 
 public class aids {
 	public static void main(String[] args) {
