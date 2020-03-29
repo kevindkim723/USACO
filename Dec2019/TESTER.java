@@ -82,8 +82,17 @@ public class TESTER {
 	}
 
 	public static void main(String[] args) throws IOException {
-
-		FileReader fr = new FileReader("src/lineup.in");
+		int a =5;
+		if (a==5)
+		{
+			System.out.println("met");
+			
+		}
+		if (a+1 == 6)
+		{
+			System.out.println('y');
+		}
+	/*	FileReader fr = new FileReader("src/lineup.in");
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("lineup.out")));
 
 		Scanner sc = new Scanner(fr);
@@ -162,7 +171,7 @@ public class TESTER {
 			//out.println(s);
 		}
 		//out.close();
-	}
+*/	}
 
 	public static ArrayList<String> reverseArray(ArrayList<String> a) {
 		ArrayList<String> b = new ArrayList<String>();
