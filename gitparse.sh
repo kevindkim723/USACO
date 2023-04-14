@@ -17,7 +17,7 @@ do
         #commitid=$(awk -v n="$((i-2))" "{if(NR==n) print }" $log | awk '{print $2}')
         git checkout $commitid
         sleep 10
-        git checkout main
+        git checkout master
         echo $((i-2))
         echo $commitid
         echo $index
