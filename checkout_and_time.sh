@@ -21,6 +21,7 @@ for ((i=1;i<=$2;i++)) do
     { time $4; }  2>> $log 1>> /dev/null
 done
 
+git checkout master
 exit
 
 
