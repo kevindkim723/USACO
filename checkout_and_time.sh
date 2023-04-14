@@ -14,6 +14,7 @@ n=$5
 git checkout $commit
 echo $date >> $log
 echo commit id: $commit >> $log
+echo comand: $command >> $log
 >>log
 
 for ((i=1;i<=$2;i++)) do
